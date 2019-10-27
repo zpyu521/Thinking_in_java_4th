@@ -1,11 +1,13 @@
-//: typeinfo/Robot.java
-import java.util.*;
-import net.mindview.util.*;
+package typeinfo;//: typeinfo/Robot.java
+
+import net.mindview.util.Null;
+
+import java.util.List;
 
 public interface Robot {
   String name();
   String model();
-  List<Operation> operations();
+ List<Operation> operations();
   class Test {
     public static void test(Robot r) {
       if(r instanceof Null)

@@ -1,7 +1,11 @@
-//: concurrency/Tester.java
+package concurrency;//: concurrency/Tester.java
 // Framework to test performance of concurrency containers.
-import java.util.concurrent.*;
-import net.mindview.util.*;
+import net.mindview.util.Generated;
+import net.mindview.util.RandomGenerator;
+
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public abstract class Tester<C> {
   static int testReps = 10;

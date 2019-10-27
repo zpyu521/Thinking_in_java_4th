@@ -1,4 +1,4 @@
-//: generics/InstantiateGenericType.java
+package generics;//: generics/InstantiateGenericType.java
 import static net.mindview.util.Print.*;
 
 class ClassAsFactory<T> {
@@ -12,7 +12,7 @@ class ClassAsFactory<T> {
   }
 }
 
-class Employee {}	
+//class Employee {}
 
 public class InstantiateGenericType {
   public static void main(String[] args) {

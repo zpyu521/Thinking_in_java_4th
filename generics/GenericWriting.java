@@ -1,5 +1,7 @@
-//: generics/GenericWriting.java
-import java.util.*;
+package generics;//: generics/GenericWriting.java
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GenericWriting {
   static <T> void writeExact(List<T> list, T item) {

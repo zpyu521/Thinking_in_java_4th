@@ -1,9 +1,12 @@
-//: concurrency/ListComparisons.java
+package concurrency;//: concurrency/ListComparisons.java
 // {Args: 1 10 10} (Fast verification check during build)
 // Rough comparison of thread-safe List performance.
-import java.util.concurrent.*;
-import java.util.*;
-import net.mindview.util.*;
+import net.mindview.util.CountingIntegerList;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 abstract class ListTest extends Tester<List<Integer>> {
   ListTest(String testId, int nReaders, int nWriters) {

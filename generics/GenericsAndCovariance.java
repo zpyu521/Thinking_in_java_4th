@@ -1,5 +1,7 @@
-//: generics/GenericsAndCovariance.java
-import java.util.*;
+package generics;//: generics/GenericsAndCovariance.java
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GenericsAndCovariance {
   public static void main(String[] args) {

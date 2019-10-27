@@ -1,8 +1,10 @@
-//: generics/MultipleInterfaceVariants.java
+package generics;//: generics/MultipleInterfaceVariants.java
 // {CompileTimeError} (Won't compile)
 
-interface Payable<T> {}
+interface Payable<T> {
+
+}
 
 class Employee implements Payable<Employee> {}
-class Hourly extends Employee
-  implements Payable<Hourly> {} ///:~
+//class Hourly extends Employee
+//  implements payable<hourly> {} ///:~

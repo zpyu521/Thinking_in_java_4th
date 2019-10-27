@@ -1,7 +1,11 @@
-//: generics/SuperTypeWildcards.java
-import java.util.*;
+package generics;//: generics/SuperTypeWildcards.java
+
+import java.util.List;
 
 public class SuperTypeWildcards {
+
+
+    //TODO
   static void writeTo(List<? super Apple> apples) {
     apples.add(new Apple());
     apples.add(new Jonathan());

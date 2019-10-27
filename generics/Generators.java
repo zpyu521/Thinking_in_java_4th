@@ -1,8 +1,11 @@
-//: generics/Generators.java
+package generics;//: generics/Generators.java
 // A utility to use with Generators.
-import generics.coffee.*;
-import java.util.*;
-import net.mindview.util.*;
+import generics.coffee.Coffee;
+import generics.coffee.CoffeeGenerator;
+import net.mindview.util.Generator;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 public class Generators {
   public static <T> Collection<T>

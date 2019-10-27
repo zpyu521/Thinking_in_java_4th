@@ -1,7 +1,11 @@
 //: generics/Store.java
 // Building up a complex model using generic containers.
-import java.util.*;
-import net.mindview.util.*;
+
+import generics.Generators;
+import net.mindview.util.Generator;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 class Product {
   private final int id;
